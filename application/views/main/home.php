@@ -7,7 +7,7 @@ if($reqBulan==''){
 }
 
 $peta["orang"]= 4856;
-$peta["unit"]= 75;
+$peta["unit"]= 74;
 $peta["proyek"]= 196;
 
 $PENDAPATAN_TARGET =[0, 40.63, 79.93, 134.68, 177.72, 217.44, 269.72, 330.9, 382.02 ,429.35,  489.22,  536.07,  600.12];
@@ -32,8 +32,8 @@ $PLN_NPS_BRUTO =[23.463, 108, 78];
 $PLN_BRUTO =[741,    312 ];
 $NON_PLN_BRUTO =[3.649, 1.559,   28,  112];
 
-$KPI_LAST='103,74';
-$KPI_YOY='-1,00%';
+$KPI_LAST='105,27';
+$KPI_YOY='0,67%';
 
 $TREN_KPI_TARGET=[100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100];
 $TREN_KPI_REALISASI=[91.69, 97.05, 99.31, 102.11, 106.25, 103.74, 105.27, 104.80];
@@ -80,9 +80,10 @@ $STATUS_SETTLEMENT_BAPP=[1561];
 $STATUS_SETTLEMENT_SIAP_TAGIH=[3424];
 $STATUS_SETTLEMENT_TERTAGIH=[58649];
 
-$total_top_perform=10;
-$total_under_perform=1;
-$detail_under_perform[0]='PM ALBER BOLOK';
+$total_top_perform=120;
+$total_under_perform=0;
+// $detail_under_perform[0]='PM ALBER BOLOK';
+
 
 // 'PLTA BAKARU','5.21579729862986','97.0905126384537','plta'
 
@@ -363,21 +364,24 @@ $arrkategoripeta= array(
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="title">Realisasi Pendapatan</div>
-                                                <div class="nilai"><?=$PENDAPATAN_REALISASI[$reqBulan]?></div>
+                                                <div class="nilai">402,94</div>
+                                                <!-- <div class="nilai"><?=$PENDAPATAN_REALISASI[$reqBulan]?></div> -->
                                                 <div class="title">Miliar</div>
                                                 <div class="nilai-info">
                                                     104%
-                                                    <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                                                    <span><i class="fa fa-caret-up" aria-hidden="true"></i></span>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 padding-left-none">
                                                 <div class="item-data-angka">
-                                                    <div class="title">Target</div>
-                                                    <div class="nilai">Rp<?=$PENDAPATAN_TARGET[$reqBulan]?> M</div>
+                                                    <div class="title">Last Month</div>
+                                                    <!-- <div class="nilai">Rp<?=$PENDAPATAN_TARGET[$reqBulan]?> M</div> -->
+                                                    <div class="nilai"> 340,74 </div>
                                                 </div>
                                                 <div class="item-data-angka">
                                                     <div class="title">YoY</div>
-                                                    <div class="nilai">Rp<?=$PENDAPATAN_PROGNOSA[$reqBulan]?>M</div>
+                                                    <!-- <div class="nilai">Rp<?=$PENDAPATAN_PROGNOSA[$reqBulan]?>M</div> -->
+                                                    <div class="nilai">15,66%</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -535,9 +539,9 @@ $arrkategoripeta= array(
                                                     <table>
                                                         <tr>
                                                             <td colspan="" style="text-align: center;"></td>
-                                                            <td colspan="5" style="text-align: center;background-color: #f1f3f8 !important;color: black;">Piutang Usaha</td>
+                                                            <td colspan="5" style="text-align: center;background-color: #f1f3f8 !important;color: black;"><strong>Piutang Usaha</strong></td>
                                                         </tr>
-                                                        <tr>
+                                                        <tr class="keterangan-kolom">
                                                             <td></td>
                                                             <td style=";background-color: #f1f3f8 !important;color: black;">>30</td>
                                                             <td style=";background-color: #f1f3f8 !important;color: black;">31-60</td>
@@ -546,31 +550,31 @@ $arrkategoripeta= array(
                                                         </tr>
                                                         <tr>
                                                             <td>PLN</td>
-                                                            <td><?=$PLN[0]?></td>
-                                                            <td><?=$PLN[1]?></td>
-                                                            <td><?=$PLN[2]?></td>
-                                                            <td><?=$PLN[3]?></td>
+                                                            <td align="right"><?=$PLN[0]?></td>
+                                                            <td align="right"><?=$PLN[1]?></td>
+                                                            <td align="right"><?=$PLN[2]?></td>
+                                                            <td align="right"><?=$PLN[3]?></td>
                                                         </tr>
                                                         <tr>
                                                             <td>PLN NP</td>
-                                                            <td><?=$PLN_NP[0]?></td>
-                                                            <td><?=$PLN_NP[1]?></td>
-                                                            <td><?=$PLN_NP[2]?></td>
-                                                            <td><?=$PLN_NP[3]?></td>
+                                                            <td align="right"><?=$PLN_NP[0]?></td>
+                                                            <td align="right"><?=$PLN_NP[1]?></td>
+                                                            <td align="right"><?=$PLN_NP[2]?></td>
+                                                            <td align="right"><?=$PLN_NP[3]?></td>
                                                         </tr>
                                                         <tr>
                                                             <td>PLN NPS</td>
-                                                            <td><?=$PLN_NPS[0]?></td>
-                                                            <td><?=$PLN_NPS[1]?></td>
-                                                            <td><?=$PLN_NPS[2]?></td>
-                                                            <td><?=$PLN_NPS[3]?></td>
+                                                            <td align="right"><?=$PLN_NPS[0]?></td>
+                                                            <td align="right"><?=$PLN_NPS[1]?></td>
+                                                            <td align="right"><?=$PLN_NPS[2]?></td>
+                                                            <td align="right"><?=$PLN_NPS[3]?></td>
                                                         </tr>
                                                         <tr>
                                                             <td>NON PLN</td>
-                                                            <td><?=$NON_PLN[0]?></td>
-                                                            <td><?=$NON_PLN[1]?></td>
-                                                            <td><?=$NON_PLN[2]?></td>
-                                                            <td><?=$NON_PLN[3]?></td>
+                                                            <td align="right"><?=$NON_PLN[0]?></td>
+                                                            <td align="right"><?=$NON_PLN[1]?></td>
+                                                            <td align="right"><?=$NON_PLN[2]?></td>
+                                                            <td align="right"><?=$NON_PLN[3]?></td>
                                                         </tr>
                                                     </table>
                                                     <div style="text-align: right;font-size: 8pt">* Dalam jutaan rupiah</div>
@@ -581,10 +585,10 @@ $arrkategoripeta= array(
                                                     <table>
                                                         <tr>
                                                             <td colspan="" style="text-align: center;"></td>
-                                                            <td colspan="6" style="text-align: center;background-color: #f1f3f8 !important;">Tagihan Bruto</td>
+                                                            <td colspan="6" style="text-align: center;background-color: #f1f3f8 !important;"><strong>Tagihan Bruto</strong></td>
                                                         </tr>
 
-                                                        <tr>
+                                                        <tr class="keterangan-kolom">
                                                             <td></td>
                                                             <td style=";background-color: #f1f3f8 !important;color: black;">>30</td>
                                                             <td style=";background-color: #f1f3f8 !important;color: black;">31-60</td>
@@ -593,34 +597,34 @@ $arrkategoripeta= array(
                                                         </tr>
                                                         <tr>
                                                             <td>PLN</td>
-                                                            <td><?=$PLN_BRUTO[0]?></td>
-                                                            <td><?=$PLN_BRUTO[1]?></td>
-                                                            <td><?=$PLN_BRUTO[2]?></td>
-                                                            <td><?=$PLN_BRUTO[3]?></td>
+                                                            <td align="right"><?=$PLN_BRUTO[0]?></td>
+                                                            <td align="right"><?=$PLN_BRUTO[1]?></td>
+                                                            <td align="right"><?=$PLN_BRUTO[2]?></td>
+                                                            <td align="right"><?=$PLN_BRUTO[3]?></td>
                                                         </tr>
                                                         <tr>
                                                             <td>PLN NP</td>
-                                                            <td><?=$PLN_NP_BRUTO[0]?></td>
-                                                            <td><?=$PLN_NP_BRUTO[1]?></td>
-                                                            <td><?=$PLN_NP_BRUTO[2]?></td>
-                                                            <td><?=$PLN_NP_BRUTO[3]?></td>
+                                                            <td align="right"><?=$PLN_NP_BRUTO[0]?></td>
+                                                            <td align="right"><?=$PLN_NP_BRUTO[1]?></td>
+                                                            <td align="right"><?=$PLN_NP_BRUTO[2]?></td>
+                                                            <td align="right"><?=$PLN_NP_BRUTO[3]?></td>
                                                         </tr>
                                                         <tr>
                                                             <td>PLN NPS</td>
-                                                            <td><?=$PLN_NPS_BRUTO[0]?></td>
-                                                            <td><?=$PLN_NPS_BRUTO[1]?></td>
-                                                            <td><?=$PLN_NPS_BRUTO[2]?></td>
-                                                            <td><?=$PLN_NPS_BRUTO[3]?></td>
+                                                            <td align="right"><?=$PLN_NPS_BRUTO[0]?></td>
+                                                            <td align="right"><?=$PLN_NPS_BRUTO[1]?></td>
+                                                            <td align="right"><?=$PLN_NPS_BRUTO[2]?></td>
+                                                            <td align="right"><?=$PLN_NPS_BRUTO[3]?></td>
                                                         </tr>
                                                         <tr>
                                                             <td>NON PLN</td>
-                                                            <td><?=$NON_PLN_BRUTO[0]?></td>
-                                                            <td><?=$NON_PLN_BRUTO[1]?></td>
-                                                            <td><?=$NON_PLN_BRUTO[2]?></td>
-                                                            <td><?=$NON_PLN_BRUTO[3]?></td>
+                                                            <td align="right"><?=$NON_PLN_BRUTO[0]?></td>
+                                                            <td align="right"><?=$NON_PLN_BRUTO[1]?></td>
+                                                            <td align="right"><?=$NON_PLN_BRUTO[2]?></td>
+                                                            <td align="right"><?=$NON_PLN_BRUTO[3]?></td>
                                                         </tr>
                                                     </table>
-                                                    <div style="text-align: right;font-size: 8pt">* Dalam jutaan rupiah</div>
+                                                    <div style="text-align: right; font-size: 8pt">* Dalam jutaan rupiah</div>
                                                 </div>
                                             </div>
                                             <!-- <div class="col-md-5">
@@ -719,7 +723,7 @@ $arrkategoripeta= array(
                                 <div class="row">
                                      <div class="col-md-6">
                                         <div class="title">KPI</div>
-                                        <div class="nilai"> 105, 27</div>
+                                        <div class="nilai"> 104,80</div>
                                         <!-- <div class="title">Miliar</div> -->
                                         <div class="nilai-info">
                                             102,11
@@ -813,7 +817,7 @@ $arrkategoripeta= array(
                                                             <div class="nilai"><span><?=$KPI_TIDAK_TERCAPAI[$i]['kemarin']?> %</span>       Last Month</div>
                                                             <div class="nilai"><span><?=$KPI_TIDAK_TERCAPAI[$i]['target']?> %</span>  Target</div>
                                                             <div class="persentase">
-                                                                <i class="fa fa-caret-up" aria-hidden="true"></i>
+                                                                <i class="fa fa-caret-down" aria-hidden="true"></i>
                                                                 98,18%
                                                             </div>
                                                         </div>
@@ -897,7 +901,7 @@ $arrkategoripeta= array(
                                     </div> -->
                                     <!-- Card Body -->
                                     <div class="card-body">
-                                        <div class="area-data-angka">
+                                        <div class="area-data-angka area-data-angka-tl">
                                             <div class="row">
                                                 <div class="col-md-3">
                                                     <div class="judul">TL RUPS</div>
@@ -922,7 +926,7 @@ $arrkategoripeta= array(
                                                                 <div class="nilai"><?=$rups_Berkelanjutan?></div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-3">
+                                                        <div class="col-md-3 padding-left-none">
                                                             <div class="item total">
                                                                 <div class="title">Proses Tindak Lanjut</div>
                                                                 <div class="nilai"><?=$rups_Proses_Tindak_Lanjut?></div>
@@ -979,13 +983,13 @@ $arrkategoripeta= array(
                                 <div>
                                     <div class="card">
                                         <!-- Card Header - Dropdown -->
-                                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                            <div class="row"  style="width:100%">
-                                                <div class="col-md-8">
+                                        <div class="card-header">
+                                            <div class="row">
+                                                <div class="col-md-7">
                                                     <h6 class="m-0 font-weight-bold text-primary">Status Settlement</h6>
                                                 </div>
-                                                <div class="col-md-4" style="text-align:right; font-size:10px ;padding-top: 5px">
-                                                    <span>*dalam juta rupiah</span>
+                                                <div class="col-md-5" style="text-align:right; font-size:10px ;padding-top: 5px">
+                                                    <span class="pull-right">*dalam juta rupiah</span>
                                                 </div>                                                
                                             </div>
                                         </div>
@@ -996,35 +1000,35 @@ $arrkategoripeta= array(
                                                     <div class="col-xs-5ths">
                                                         <div class="item" style="background-color: #fc3a3a">
                                                             <div class="title"></div>
-                                                            <div class="nilai"><?=$v_settlement_kontrak[$reqBulan]?></div>
+                                                            <div class="nilai" style="color: white;"><?=$v_settlement_kontrak[$reqBulan]?></div>
                                                         </div>
                                                     </div>
                                                     <div class="col-xs-5ths">
                                                         <div class="item" style="background-color: #c6c6c6">
                                                             <div class="title"></div>
-                                                            <div class="nilai"><?=$v_settlement_laporan[$reqBulan]?></div>
+                                                            <div class="nilai" style="color: white;"><?=$v_settlement_laporan[$reqBulan]?></div>
                                                         </div>
                                                     </div>
                                                     <div class="col-xs-5ths">
                                                         <div class="item" style="background-color: #f4f972">
                                                             <div class="title"></div>
-                                                            <div class="nilai"><?=$v_settlement_bapp[$reqBulan]?></div>
+                                                            <div class="nilai" style="color: white;"><?=$v_settlement_bapp[$reqBulan]?></div>
                                                         </div>
                                                     </div>
                                                     <div class="col-xs-5ths">
                                                         <div class="item" style="background-color: #f7bc2c">
                                                             <div class="title"></div>
-                                                            <div class="nilai"><?=$v_settlement_siap_tagih[$reqBulan]?></div>
+                                                            <div class="nilai" style="color: white;"><?=$v_settlement_siap_tagih[$reqBulan]?></div>
                                                         </div>
                                                     </div>
                                                     <div class="col-xs-5ths">
                                                         <div class="item" style="background-color: #8cce08">
                                                             <div class="title"></div>
-                                                            <div class="nilai"><?=$v_settlement_tertagih[$reqBulan]?></div>
+                                                            <div class="nilai" style="color: white;"><?=$v_settlement_tertagih[$reqBulan]?></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row" style="font-size:9px; text-align: center;">
+                                                <div class="row keterangan-status-settlement">
                                                     <div class="col-xs-5ths">
                                                         KONTRAK
                                                     </div>
@@ -1176,11 +1180,11 @@ $arrkategoripeta= array(
                                         <div class="row">
                                             <div class="col-md-3 padding-right-none">
                                                 <div class="item">
-                                                    <div class="title">Top Perform</div>
+                                                    <div class="title">Mencapai Target</div>
                                                     <div class="nilai"><?=$total_top_perform?></div>
                                                 </div>
                                                 <div class="item">
-                                                    <div class="title">Under Perform</div>
+                                                    <div class="title">Dibawah Target</div>
                                                     <div class="nilai"><?=$total_under_perform?></div>
                                                 </div>
                                             </div>
@@ -1191,6 +1195,10 @@ $arrkategoripeta= array(
                                                         <ul>
                                                             <?for($i=0;$i<count($detail_under_perform);$i++){?>
                                                                 <li><?=$i+1?>. <?=$detail_under_perform[$i]?></li>
+                                                            <?}
+
+                                                            if(count($detail_under_perform)==0){?>
+                                                                <li>Seluruh SLA Tercapai</li>
                                                             <?}?>
                                                         </ul>
                                                     </div>

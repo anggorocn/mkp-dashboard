@@ -79,7 +79,7 @@ if(empty($reqTahun)){
                 </a>
             </li> -->
             <li class="nav-item <? if($pg == "" || $pg == "home"){ ?>active<? } ?>">
-                <a class="nav-link" href="app/index/home"><i class="fas fa-fw fa-tachometer-alt"></i><span>Scorecard</span></a>
+                <a class="nav-link" href="app/index/home"><i class="fas fa-fw fa-tachometer-alt"></i><span>Corporate</span></a>
                 <!-- <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#sub-dashboard"
                     aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-tachometer-alt"></i>

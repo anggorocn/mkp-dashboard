@@ -1078,7 +1078,7 @@ function array_peta()
 			, "lat" => "-7.265271683865358"
 			, "long" => "112.74358677085856"
 			, "ket" => "PLN"
-			, "detil" => "Jumlah Karyawan: 92"
+			, "detil" => "SDM: 92"
 	    )
 	    ,
 	    array
@@ -1095,7 +1095,7 @@ function array_peta()
 			, "lat" => "-6.449058974675559"
 			, "long" => "110.74176299043063"
 			, "ket" => "PLN"
-			, "detil" => "Jumlah Karyawan: 46"
+			, "detil" => "SDM: 46"
 		)
 		,
 	    array
@@ -1104,7 +1104,7 @@ function array_peta()
 	        , "lat" => "-7.68446439555122"
 	        , "long" => "109.08809877647036"
 	        , "ket" => "NON PLN"
-	        , "detil" => "Unit 1,2<br/>300 MW<br/>Jumlah Karyawan: 56<br/>Unit 3<br/>600 MW<br/>Jumlah Karyawan: 0<br/>Unit 3A<br/>1000 MW<br/>Jumlah Karyawan: 0"
+	        , "detil" => "Unit 1,2<br/>300 MW<br/>SDM: 56<br/>Unit 3<br/>600 MW<br/>SDM: 0<br/>Unit 3A<br/>1000 MW<br/>SDM: 0"
 		)
 		,
 	    array
@@ -1113,7 +1113,7 @@ function array_peta()
 	        , "lat" => "-6.448727023072568"
 	        , "long" => "110.7418649518022"
 	        , "ket" => "NON PLN"
-	        , "detil" => "550 MW<br/>Jumlah Karyawan: 0"
+	        , "detil" => "550 MW<br/>SDM: 0"
 		)
 		,
 	    array
@@ -1122,7 +1122,7 @@ function array_peta()
 			, "lat" => "-6.44543537824147"
 			, "long" => "110.74662641502371"
 			, "ket" => "NON PLN"
-			, "detil" => "660 MW<br/>Jumlah Karyawan: 151"
+			, "detil" => "660 MW<br/>SDM: 151"
 		)
 		,
 	    array
@@ -1131,7 +1131,7 @@ function array_peta()
 	        , "lat" => "-6.445838639377709"
 	        , "long" => "110.75000724385947"
 	        , "ket" => "NON PLN"
-	        , "detil" => "1000 MW<br/>Jumlah Karyawan: 192"
+	        , "detil" => "1000 MW<br/>SDM: 192"
 		)
 		,
 	    array
@@ -1140,7 +1140,7 @@ function array_peta()
 	        , "lat" => "-3.636907868466981"
 	        , "long" => "103.92451637430075"
 	        , "ket" => "NON PLN"
-	        , "detil" => "135 MW<br/>Jumlah Karyawan: 0"
+	        , "detil" => "135 MW<br/>SDM: 0"
 		)
 		,
 	    array
@@ -1157,7 +1157,7 @@ function array_peta()
 			, "lat" => "-7.317139134644471"
 			, "long" => "112.73079468766267"
 			, "ket" => "PLNNP"
-			, "detil" => "Jumlah Karyawan: 5"
+			, "detil" => "SDM: 5"
 		)
 		,
 	    array
@@ -1166,7 +1166,7 @@ function array_peta()
 			, "lat" => "5.215690454503681"
 			, "long" => "97.09108126654075"
 			, "ket" => "PLNNP"
-			, "detil" => "184 MW<br/>Jumlah Karyawan: 51"
+			, "detil" => "184 MW<br/>SDM: 51"
 		)
 		,
 	    array
@@ -1175,7 +1175,7 @@ function array_peta()
 	        , "lat" => "0.5489004310461164"
 	        , "long" => "101.4611356453437"
 	        , "ket" => "PLNNP"
-	        , "detil" => "16 MW<br/>Jumlah Karyawan: 12"
+	        , "detil" => "16 MW<br/>SDM: 12"
 		)
 		,
 	    array
@@ -1184,7 +1184,7 @@ function array_peta()
 	        , "lat" => "0.29570438749577244"
 	        , "long" => "100.8854078075583"
 	        , "ket" => "PLNNP"
-	        , "detil" => "21.6 MW<br/>Jumlah Karyawan: 12"
+	        , "detil" => "21.6 MW<br/>SDM: 12"
 		)
 		,
 	    array
@@ -1193,7 +1193,7 @@ function array_peta()
 	        , "lat" => "0.29570438749577244"
 	        , "long" => "100.8854078075583"
 	        , "ket" => "PLNNP"
-	        , "detil" => "38 MW<br/>Jumlah Karyawan: 12"
+	        , "detil" => "38 MW<br/>SDM: 12"
 		)
 		,
 	    array
@@ -1202,7 +1202,7 @@ function array_peta()
 			, "lat" => "0.5630098994438091"
 			, "long" => "101.52495161865764"
 			, "ket" => "PLNNP"
-			, "detil" => "110 MW<br/>Jumlah Karyawan: 172"
+			, "detil" => "110 MW<br/>SDM: 172"
 		)
 		,
 	    array
@@ -1211,7 +1211,7 @@ function array_peta()
 			, "lat" => "-3.758137892457901"
 			, "long" => "103.79261041313806"
 			, "ket" => "PLNNP"
-			, "detil" => "65 MW<br/>Jumlah Karyawan: 41"
+			, "detil" => "65 MW<br/>SDM: 41"
 		)
 		,
 	    array
@@ -1220,7 +1220,7 @@ function array_peta()
 			, "lat" => "-6.111331491034245"
 			, "long" => "106.78268775089329"
 			, "ket" => "PLNNP"
-			, "detil" => "909 MW<br/>Jumlah Karyawan: 108"
+			, "detil" => "909 MW<br/>SDM: 108"
 		)
 		,
 	    array
@@ -1229,7 +1229,7 @@ function array_peta()
 			, "lat" => "-6.089408223059835"
 			, "long" => "106.9973221745397"
 			, "ket" => "PLNNP"
-			, "detil" => "1778 MW<br/>Jumlah Karyawan: 63"
+			, "detil" => "1778 MW<br/>SDM: 63"
 		)
 		,
 	    array
@@ -1238,7 +1238,7 @@ function array_peta()
 			, "lat" => "-6.273407326680652"
 			, "long" => "107.97399516137423"
 			, "ket" => "PLNNP"
-			, "detil" => "330 MW<br/>Jumlah Karyawan: 110"
+			, "detil" => "330 MW<br/>SDM: 110"
 		)
 		,
 	    array
@@ -1247,7 +1247,7 @@ function array_peta()
 	        , "lat" => "-6.673413558185224"
 	        , "long" => "107.35110109729187"
 	        , "ket" => "PLNNP"
-	        , "detil" => "126 MW<br/>Jumlah Karyawan: 53"
+	        , "detil" => "126 MW<br/>SDM: 53"
 		)
 		,
 	    array
@@ -1256,7 +1256,7 @@ function array_peta()
 	        , "lat" => "-6.636385962651387"
 	        , "long" => "111.47581000649517"
 	        , "ket" => "PLNNP"
-	        , "detil" => "315 MW<br/>Jumlah Karyawan: 91"
+	        , "detil" => "315 MW<br/>SDM: 91"
 		)
 		,
 	    array
@@ -1265,7 +1265,7 @@ function array_peta()
 	        , "lat" => "-6.810353452381976"
 	        , "long" => "111.99605018434366"
 	        , "ket" => "PLNNP"
-	        , "detil" => "350 MW<br/>Jumlah Karyawan: 91"
+	        , "detil" => "350 MW<br/>SDM: 91"
 		)
 		,
 	    array
@@ -1274,7 +1274,7 @@ function array_peta()
 			, "lat" => "-8.25772578906238"
 			, "long" => "111.37346336471643"
 			, "ket" => "PLNNP"
-			, "detil" => "315 MW<br/>Jumlah Karyawan: 256"
+			, "detil" => "315 MW<br/>SDM: 256"
 		)
 		,
 	    array
@@ -1283,7 +1283,7 @@ function array_peta()
 			, "lat" => "-7.164202797385325"
 			, "long" => "112.66070708031455"
 			, "ket" => "PLNNP"
-			, "detil" => "74 MW<br/>Jumlah Karyawan: 2219"
+			, "detil" => "74 MW<br/>SDM: 2219"
 		)
 		,
 	    array
@@ -1292,7 +1292,7 @@ function array_peta()
 			, "lat" => "-8.146799442677072"
 			, "long" => "112.47315644678758"
 			, "ket" => "PLNNP"
-			, "detil" => "275 MW<br/>Jumlah Karyawan: 31"
+			, "detil" => "275 MW<br/>SDM: 31"
 		)
 		,
 	    array
@@ -1301,7 +1301,7 @@ function array_peta()
 	        , "lat" => "-7.716221445489223"
 	        , "long" => "113.58618788027206"
 	        , "ket" => "PLNNP"
-	        , "detil" => "400 MW<br/>Jumlah Karyawan: 125"
+	        , "detil" => "400 MW<br/>SDM: 125"
 		)
 		,
 	    array
@@ -1310,7 +1310,7 @@ function array_peta()
 	        , "lat" => "-7.710482709892657"
 	        , "long" => "113.57193808808987"
 	        , "ket" => "PLNNP"
-	        , "detil" => "660 MW<br/>Jumlah Karyawan: 78"
+	        , "detil" => "660 MW<br/>SDM: 78"
 		)
 		,
 	    array
@@ -1319,7 +1319,7 @@ function array_peta()
 	        , "lat" => "-1.1665832326913053"
 	        , "long" => "116.79168208188736"
 	        , "ket" => "PLNNP"
-	        , "detil" => "110 MW<br/>Jumlah Karyawan: 225"
+	        , "detil" => "110 MW<br/>SDM: 225"
 		)
 		,
 	    array
@@ -1328,7 +1328,7 @@ function array_peta()
 	        , "lat" => "-2.7534235353433356"
 	        , "long" => "114.25752311258543"
 	        , "ket" => "PLNNP"
-	        , "detil" => "60 MW<br/>Jumlah Karyawan: 209"
+	        , "detil" => "60 MW<br/>SDM: 209"
 		)
 		,
 	    array
@@ -1337,7 +1337,7 @@ function array_peta()
 	        , "lat" => "-3.0070662501323113"
 	        , "long" => "114.38628281742434"
 	        , "ket" => "PLNNP"
-	        , "detil" => "1.5 MW<br/>Jumlah Karyawan: 16"
+	        , "detil" => "1.5 MW<br/>SDM: 16"
 		)
 		,
 	    array
@@ -1370,7 +1370,7 @@ function array_peta()
 	        , "lat" => "0.5537220495070777"
 	        , "long" => "123.05457029537212"
 	        , "ket" => "PLNNP"
-	        , "detil" => "1.3 MW<br/>Jumlah Karyawan: 46"
+	        , "detil" => "1.3 MW<br/>SDM: 46"
 		)
 		,
 	    array
@@ -1379,7 +1379,7 @@ function array_peta()
 	        , "lat" => "0.5760154674263721"
 	        , "long" => "123.04927565971676"
 	        , "ket" => "PLNNP"
-	        , "detil" => "1.2 MW<br/>Jumlah Karyawan: 27"
+	        , "detil" => "1.2 MW<br/>SDM: 27"
 		)
 		,
 	    array
@@ -1388,7 +1388,7 @@ function array_peta()
 	        , "lat" => "0.57621577820584"
 	        , "long" => "123.04876411441491"
 	        , "ket" => "PLNNP"
-	        , "detil" => "2.5 MW<br/>Jumlah Karyawan: 33"
+	        , "detil" => "2.5 MW<br/>SDM: 33"
 		)
 		,
 	    array
@@ -1397,7 +1397,7 @@ function array_peta()
 	        , "lat" => "-4.135122992599282"
 	        , "long" => "120.03732891144315"
 	        , "ket" => "PLNNP"
-	        , "detil" => "135 MW<br/>Jumlah Karyawan: 84"
+	        , "detil" => "135 MW<br/>SDM: 84"
 		)
 		,
 	    array
@@ -1406,7 +1406,7 @@ function array_peta()
 	        , "lat" => "-5.622699222197931"
 	        , "long" => "119.55341394700471"
 	        , "ket" => "PLNNP"
-	        , "detil" => "100 MW<br/>Jumlah Karyawan: 4"
+	        , "detil" => "100 MW<br/>SDM: 4"
 		)
 		,
 	    array
@@ -1415,7 +1415,7 @@ function array_peta()
 	        , "lat" => "-6.110284000484365"
 	        , "long" => "106.77966931257725"
 	        , "ket" => "PLNNP"
-	        , "detil" => "Jumlah Karyawan: 52"
+	        , "detil" => "SDM: 52"
 		)
 		,
 	    array
@@ -1424,7 +1424,7 @@ function array_peta()
 	        , "lat" => "-7.169190463457479"
 	        , "long" => "112.66134056470472"
 	        , "ket" => "PLNNP"
-	        , "detil" => "Jumlah Karyawan: 41"
+	        , "detil" => "SDM: 41"
 		)
 		,
 	    array
@@ -1457,7 +1457,7 @@ function array_peta()
 	        , "lat" => "-7.378487313767148"
 	        , "long" => "112.73730172481336"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "Jumlah Karyawan: 130"
+	        , "detil" => "SDM: 130"
 	    )
 	    ,
 	    array
@@ -1466,7 +1466,7 @@ function array_peta()
 	        , "lat" => "2.514552947365227"
 	        , "long" => "99.26432943545888"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "90 MW<br/>Jumlah Karyawan: 6"
+	        , "detil" => "90 MW<br/>SDM: 6"
 	    )
 	    ,
 	    array
@@ -1475,7 +1475,7 @@ function array_peta()
 		    , "lat" => "4.1197531125825915"
 		    , "long" => "98.2588393787068"
 		    , "ket" => "PLNNPS"
-		    , "detil" => "210 MW<br/>Jumlah Karyawan: 16"
+		    , "detil" => "210 MW<br/>SDM: 16"
 	    )
 	    ,
 	    array
@@ -1484,7 +1484,7 @@ function array_peta()
 	        , "lat" => "-2.077047753241415"
 	        , "long" => "106.14954344988617"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "30 MW<br/>Jumlah Karyawan: 178"
+	        , "detil" => "30 MW<br/>SDM: 178"
 	    )
 	    ,
 	    array
@@ -1493,7 +1493,7 @@ function array_peta()
 	        , "lat" => "-2.892176199707705"
 	        , "long" => "107.56464421324927"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "16.5 MW<br/>Jumlah Karyawan: 142"
+	        , "detil" => "16.5 MW<br/>SDM: 142"
 	    )
 	    ,
 	    array
@@ -1502,7 +1502,7 @@ function array_peta()
 	        , "lat" => "-0.29724135371252736"
 	        , "long" => "103.20415826706524"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "7 MW<br/>Jumlah Karyawan: 96"
+	        , "detil" => "7 MW<br/>SDM: 96"
 	    )
 	    ,
 	    array
@@ -1511,7 +1511,7 @@ function array_peta()
 	        , "lat" => "-3.7226746331258824"
 	        , "long" => "103.6892869542416"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "135 MW<br/>Jumlah Karyawan: 51"
+	        , "detil" => "135 MW<br/>SDM: 51"
 	    )
 	    ,
 	    array
@@ -1520,7 +1520,7 @@ function array_peta()
 	        , "lat" => "3.7706378375955327"
 	        , "long" => "98.67137910760827"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "65 MW<br/>Jumlah Karyawan: 2"
+	        , "detil" => "65 MW<br/>SDM: 2"
 	    )
 	    ,
 	    array
@@ -1529,7 +1529,7 @@ function array_peta()
 	        , "lat" => "-5.847603976996877"
 	        , "long" => "112.64657740944777"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "3 MW<br/>Jumlah Karyawan: 16"
+	        , "detil" => "3 MW<br/>SDM: 16"
 	    )
 	    ,
 	    array
@@ -1538,7 +1538,7 @@ function array_peta()
 	        , "lat" => "-1.7441820764456781"
 	        , "long" => "109.93683810496653"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "10 MW<br/>Jumlah Karyawan: 142"
+	        , "detil" => "10 MW<br/>SDM: 142"
 	    )
 	    ,
 	    array
@@ -1547,7 +1547,7 @@ function array_peta()
 	        , "lat" => "-7.825347298043286"
 	        , "long" => "113.937741151809"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "1.8 MW<br/>Jumlah Karyawan: 9"
+	        , "detil" => "1.8 MW<br/>SDM: 9"
 	    )
 	    ,
 	    array
@@ -1556,7 +1556,7 @@ function array_peta()
 	        , "lat" => "-3.8962164112757307"
 	        , "long" => "122.53909096339702"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "10 MW<br/>Jumlah Karyawan: 217"
+	        , "detil" => "10 MW<br/>SDM: 217"
 	    )
 	    ,
 	    array
@@ -1565,7 +1565,7 @@ function array_peta()
 	        , "lat" => "-0.9642324434254224"
 	        , "long" => "121.82304542104303"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "3 MW<br/>Jumlah Karyawan: 117"
+	        , "detil" => "3 MW<br/>SDM: 117"
 	    )
 	    ,
 	    array
@@ -1574,7 +1574,7 @@ function array_peta()
 	        , "lat" => "0.8505533628510964"
 	        , "long" => "122.79648255171908"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "25 MW<br/>Jumlah Karyawan: 150"
+	        , "detil" => "25 MW<br/>SDM: 150"
 	    )
 	    ,
 	    array
@@ -1583,7 +1583,7 @@ function array_peta()
 	        , "lat" => "1.1833284359761176"
 	        , "long" => "124.47968338055368"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "25 MW<br/>Jumlah Karyawan: 172"
+	        , "detil" => "25 MW<br/>SDM: 172"
 	    )
 	    ,
 	    array
@@ -1592,7 +1592,7 @@ function array_peta()
 	        , "lat" => "-3.9694998928943144"
 	        , "long" => "119.62460205018176"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "10.4 MW<br/>Jumlah Karyawan: 34"
+	        , "detil" => "10.4 MW<br/>SDM: 34"
 	    )
 	    ,
 	    array
@@ -1601,7 +1601,7 @@ function array_peta()
 	        , "lat" => "0.7390907419673347"
 	        , "long" => "127.3885565633646"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "7 MW<br/>Jumlah Karyawan: 157"
+	        , "detil" => "7 MW<br/>SDM: 157"
 	    )
 	    ,
 	    array
@@ -1610,7 +1610,7 @@ function array_peta()
 	        , "lat" => "0.7672439124708004"
 	        , "long" => "127.30635420754176"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "10 MW<br/>Jumlah Karyawan: 24"
+	        , "detil" => "10 MW<br/>SDM: 24"
 	    )
 	    ,
 	    array
@@ -1619,7 +1619,7 @@ function array_peta()
 	        , "lat" => "-8.50873486471277"
 	        , "long" => "121.70153376476016"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "7 MW<br/>Jumlah Karyawan: 134"
+	        , "detil" => "7 MW<br/>SDM: 134"
 	    )
 	    ,
 	    array
@@ -1628,7 +1628,7 @@ function array_peta()
 	        , "lat" => "-10.238966682543262"
 	        , "long" => "123.4902362769962"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "16.5 MW<br/>Jumlah Karyawan: 140"
+	        , "detil" => "16.5 MW<br/>SDM: 140"
 	    )
 	    ,
 	    array
@@ -1637,7 +1637,7 @@ function array_peta()
 	        , "lat" => "-8.418929767489166"
 	        , "long" => "116.70672232631549"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "50 MW<br/>Jumlah Karyawan: 23"
+	        , "detil" => "50 MW<br/>SDM: 23"
 	    )
 	    ,
 	    array
@@ -1646,7 +1646,7 @@ function array_peta()
 	        , "lat" => "0.8428131473183459"
 	        , "long" => "128.25607458425122"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "60 MW<br/>Jumlah Karyawan: 50"
+	        , "detil" => "60 MW<br/>SDM: 50"
 	    )
 	    ,
 	    array
@@ -1655,7 +1655,7 @@ function array_peta()
 	        , "lat" => "-8.427641318969759"
 	        , "long" => "119.93554682308418"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "7 MW<br/>Jumlah Karyawan: 20"
+	        , "detil" => "7 MW<br/>SDM: 20"
 	    )
 	    ,
 	    array
@@ -1664,7 +1664,7 @@ function array_peta()
 	        , "lat" => "-8.409430235504562"
 	        , "long" => "118.69938230764244"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "50 MW<br/>Jumlah Karyawan: 32"
+	        , "detil" => "50 MW<br/>SDM: 32"
 	    )
 	    ,
 	    array
@@ -1673,7 +1673,7 @@ function array_peta()
 	        , "lat" => "-8.447118316436235"
 	        , "long" => "117.33547412880755"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "50 MW<br/>Jumlah Karyawan: 33"
+	        , "detil" => "50 MW<br/>SDM: 33"
 	    )
 	    ,
 	    array
@@ -1682,7 +1682,7 @@ function array_peta()
 	        , "lat" => "-8.619835177362278"
 	        , "long" => "122.33917242298838"
 	        , "ket" => "PLNNPS"
-	        , "detil" => "40 MW<br/>Jumlah Karyawan: 33"
+	        , "detil" => "40 MW<br/>SDM: 33"
 	    )
 	    /*,
 	    array
@@ -1697,7 +1697,7 @@ function array_peta()
 	    	, "lat" => "1.4557525328004721"
 	    	, "long" => "125.16205856893525"
 	    	, "ket" => "PLNNPS"
-	    	, "detil" => "Jumlah Karyawan: 6"
+	    	, "detil" => "SDM: 6"
 	    )
 	    ,
 	    array
@@ -1750,7 +1750,7 @@ function array_peta()
 	        , "lat" => ""
 	        , "long" => ""
 	        , "ket" => ""
-	        , "detil" => "0 MW<br/>Jumlah Karyawan: 0"
+	        , "detil" => "0 MW<br/>SDM: 0"
 	    )
 		*/
 	);

@@ -544,35 +544,35 @@ $rekomTL= 4;
 //PROGRAM STRATEGIS
 $dataprogst = [
     [
-        'nama' => 'Isu 1',
+        'nama' => 'Peningkatan Pendapatan pasar existing dan perluasan pasar baru',
         'rencana' => '-',
         'realisasi' => '-',
         'percent' => '76',
         'warna' => 'e67e22',
     ],
     [
-        'nama' => 'Isu 2',
+        'nama' => 'Kesiapan SDM dan penguatan organisasi untuk mendukung peningkatan peran dalam pengelolaan pembangkit ',
         'rencana' => '-',
         'realisasi' => '-',
         'percent' => '83',
         'warna' => '3498db',
     ],
     [
-        'nama' => 'Isu 3',
+        'nama' => 'Peningkatan kualitas layanan dan Customer Engagement',
         'rencana' => '-',
         'realisasi' => '-',
         'percent' => '75',
         'warna' => '2c3e50',
     ],
     [
-        'nama' => 'Isu 4',
+        'nama' => 'Kepatuhan pada Penerapan manajemen  K3 dan  peningkatan tata kelola perusahaan ',
         'rencana' => '-',
         'realisasi' => '-',
         'percent' => '78',
         'warna' => '5a68a5',
     ],
     [
-        'nama' => 'Isu 5',
+        'nama' => 'Pengendalian Biaya dan Kesehatan keuangan',
         'rencana' => '-',
         'realisasi' => '-',
         'percent' => '56',
@@ -662,8 +662,8 @@ foreach ($datapengit as $key => $value)
 }
 
 //Risk Management Report
-$datacontrol= '[["Selesai",0],["Dalam proses",0]]';
-$datamitigasi= '[["Selesai",73],["Dalam proses",116]]';
+$datacontrol= '[["Selesai",11],["Dalam proses",55]]';
+$datamitigasi= '[["Selesai",91],["Dalam proses",28]]';
 
 //internal external
 $datainternal= "[['Selesai', 12],['Dalam proses', 0]]";
@@ -899,7 +899,8 @@ $dataexternal= "[['Selesai', 6],['Dalam proses', 0]]";
                                 <div class="item-data-angka no-border no-padding no-background" style="margin-bottom: 5px;">
                                     <div class="informasi">
                                         <div class="keterangan"><?=$value['NAMA']?></div>
-                                        <div class="nilai">Rp. <?=number_format($value['ANGKA']/1000000,0,',','.')?> M</div>
+                                        <div class="nilai">Rp. <?=number_format($value['ANGKA'],0,',','.')?></div>
+                                        <!-- <div class="nilai">Rp. <?=number_format($value['ANGKA']/1000000,0,',','.')?> M</div> -->
                                     </div>
                                     <div class="persentase">
                                         <?=$value['PERCENT']?>%

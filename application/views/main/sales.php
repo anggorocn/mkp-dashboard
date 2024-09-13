@@ -47,8 +47,11 @@ foreach ($arrcheck as $vindex)
 }
 // print_r($arrdatanilaigpm);exit;
 
-$grafiksales["target"]= [40631996981/1000000, 79931357203/1000000, 134674172797/1000000, 177717090048/1000000, 217437127220/1000000, 269726325871/1000000, 330904962991/1000000, 382011321345/1000000, 434347929705/1000000, 489215242837/1000000, 536072718966/1000000, null];
-$grafiksales["realisasi"]= [78442035975/1000000, 132206812575/1000000, 224496938805/1000000, 297357758639/1000000, 356449977502/1000000, 389285199972/1000000, 400634162273/1000000, 409855320403/1000000];
+// $grafiksales["target"]= [40631996981/1000000, 79931357203/1000000, 134674172797/1000000, 177717090048/1000000, 217437127220/1000000, 269726325871/1000000, 330904962991/1000000, 382011321345/1000000, 434347929705/1000000, 489215242837/1000000, 536072718966/1000000, null];
+// $grafiksales["realisasi"]= [78442035975/1000000, 132206812575/1000000, 224496938805/1000000, 297357758639/1000000, 356449977502/1000000, 389285199972/1000000, 400634162273/1000000, 409855320403/1000000];
+$grafiksales["target"]= [40632, 79931, 134674, 177717, 217437, 269726, 330905, 382011, 434348, 489215, 536073, 636130];
+$grafiksales["realisasi"]= [78442, 132207, 224497, 297358, 356450, 389285, 400634, 409855, null, null, null, null];
+$grafiksales["prognosa"]= [null, null, null, null, null, null, null, 393472, 447378, 503892, 552155, 655214];
 
 $arrkontrak["dalam_proses_072024"]["rutin"]= [3];
 $arrkontrak["dalam_proses_072024"]["non_rutin"]= [63];
@@ -512,20 +515,20 @@ foreach ($arrcheck as $vindex)
                 <div class="row">
                   <div class="col-md-6">
                     <div class="item">
-                      <div class="nilai">9</div>
+                      <div class="nilai">11</div>
                       <div class="title">Kontrak akan berakhir</div>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="item">
-                      <div class="nilai">7</div>
+                      <div class="nilai">13</div>
                       <div class="title">Repeat<br>Order</div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="keterangan">
-                Terdapat 7 dari 9 kontrak yang repeat order
+                Terdapat 11 dari 13 kontrak yang repeat order
               </div>
             </div>
           </div>
@@ -541,20 +544,20 @@ foreach ($arrcheck as $vindex)
                 <div class="row">
                   <div class="col-md-6">
                     <div class="item">
-                      <div class="nilai">2</div>
+                      <div class="nilai">1</div>
                       <div class="title">Customer<br>Advocacy</div>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="item">
-                      <div class="nilai">5</div>
+                      <div class="nilai">1</div>
                       <div class="title">New<br>Customer</div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="keterangan">
-                Terdapat 5 customer baru dari rekomendasi 2 customer eksisting
+                Terdapat 1 customer baru dari rekomendasi 1 customer eksisting
               </div>
             </div>
           </div>
@@ -587,6 +590,9 @@ foreach ($arrcheck as $vindex)
         <?
         foreach ($arrtop5kontrak as $k => $v)
         {
+
+          if ($k >= 5) break;
+
           $vnominal= numberToIna(round($v["nominal"] / 1000000, 2));
           $vtanggal= "";
           if(!empty($v["tanggal"]))

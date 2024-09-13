@@ -58,11 +58,11 @@ foreach ($arrorangproses as $k => $v)
 }
 
 $arrspendcategory= array(
-	array("periode"=>"072024", "nama"=>"Consumable", "jumlah"=>358, "nominal"=>12430910831)
-	, array("periode"=>"072024", "nama"=>"Item B", "jumlah"=>null, "nominal"=>null)
-	, array("periode"=>"072024", "nama"=>"Item C", "jumlah"=>null, "nominal"=>null)
-	, array("periode"=>"072024", "nama"=>"Item D", "jumlah"=>null, "nominal"=>null)
-	, array("periode"=>"072024", "nama"=>"Item E", "jumlah"=>null, "nominal"=>null)
+	array("periode"=>"072024", "nama"=>"Consumable", "jumlah"=>358, "nominal"=>13420.05)
+	, array("periode"=>"072024", "nama"=>"Konsumsi dan Air Minum ", "jumlah"=>1, "nominal"=>1309.93)
+	, array("periode"=>"072024", "nama"=>"Tranportasi", "jumlah"=>1, "nominal"=>657.71)
+	, array("periode"=>"072024", "nama"=>"Akomodasi ", "jumlah"=>1, "nominal"=>616.36)
+	, array("periode"=>"072024", "nama"=>"Scaffolding ", "jumlah"=>1, "nominal"=>577.96)
 );
 
 $arrspendcategorykategori= $arrspendcategoryjumlah= $arrspendcategorynilai= [];
@@ -72,6 +72,7 @@ foreach ($arrspendcategory as $k => $v)
 	array_push($arrspendcategoryjumlah, $v["jumlah"]);
 	array_push($arrspendcategorynilai, array($v["nama"], $v["nominal"]));
 }
+// print_r($arrspendcategory); exit;
 
 $arrspendstore= array(
 	array("periode"=>"072024", "nama"=>"CV Gentala Multi Procurement", "jumlah"=>48, "nominal"=>2304096280)

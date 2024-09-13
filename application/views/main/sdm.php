@@ -45,13 +45,13 @@ $FREELANCE_WELDER=[0,0,0,0,0,0,0,0,0	];
 $TURN_IN=[248,65,61,139,64,68,37,0,0,0,0,0];
 $TURN_OUT=[10,36,41,7,18,20,18,0,0,0,0,0];
 
-$BULAN_6=[0,672,739,642,891,1116,1192,1487];
-$BULAN_3_6=[0,339,334,385,371,199,132,561];
-$BULAN_3=[0,679,504,384,112,334,379,284];
-$OVERDUE=[0,535,684,874,1045,822,824,226];
+$BULAN_6=[0,672,739,642,891,1116,1192,1487,1487];
+$BULAN_3_6=[0,339,334,385,371,199,132,561,561];
+$BULAN_3=[0,679,504,384,112,334,379,284,284];
+$OVERDUE=[0,535,684,874,1045,822,824,226,226];
 
-$TIME_TO_HIRE['target']='14';
-$TIME_TO_HIRE['realisasi']='9.63';
+$TIME_TO_HIRE['target']=[0,0,0,0,0,0,0,14];
+$TIME_TO_HIRE['realisasi']=[0,0,0,0,0,0,0,9.63];
 $TIME_TO_HIRE['satuan']='HARI/HIRE';
 // $COST_TO_HIRE_RATIO='0';
 
@@ -59,20 +59,52 @@ $BIPEG_RASIO['target']=[0,0,0,0,0,0,0,55];
 $BIPEG_RASIO['realisasi']=[0,0,0,0,0,0,0,57];
 $BIPEG_RASIO['satuan']='%';
 
-$ENGAGEMENT_RATING=96.75;
+$ENGAGEMENT_RATING['target']=[0,0,0,0,0,0,0,96];
+$ENGAGEMENT_RATING['realisasi']=[0,0,0,0,0,0,0,96.75];
+$ENGAGEMENT_RATING['satuan']='%';
+
+$TRAINING_EFFECTIVNESS['target']= [0,0,0,0,0,0,0,45];
+$TRAINING_EFFECTIVNESS['realisasi']= [0,0,0,0,0,0,0,33.59];
+$TRAINING_EFFECTIVNESS['satuan']= '%';
+
+$TRAINING_EXPENSE_RATIO['target']=[0,0,0,0,0,0,0,70];
+$TRAINING_EXPENSE_RATIO['realisasi']=[0,0,0,0,0,0,0,70.95];
+$TRAINING_EXPENSE_RATIO['satuan']='%';
+
+$OVERTIME_PERCENTAGE['target']=[0,0,0,0,0,0,0,15];
+$OVERTIME_PERCENTAGE['realisasi']=[0,0,0,0,0,0,0,15];
+$OVERTIME_PERCENTAGE['satuan']='%';
+
+$TURN_OVER_RATIO['target']=[0,0,0,0,0,0,0,5];
+$TURN_OVER_RATIO['realisasi']=[0,0,0,0,0,0,0,0.27];
+$TURN_OVER_RATIO['satuan']='%';
+
+$HR_TO_EMPLOYEE['target']=[0,0,0,0,0,0,0,2];
+$HR_TO_EMPLOYEE['realisasi']=[0,0,0,0,0,0,0,0.19];
+$HR_TO_EMPLOYEE['satuan']='%';
+
+$RATIO_COST_PER_EMPLOYEE['target']=[0,0,0,0,0,0,0,3.5];
+$RATIO_COST_PER_EMPLOYEE['realisasi']=[0,0,0,0,0,0,0,1.21];
+$RATIO_COST_PER_EMPLOYEE['satuan']='juta/orang';
+
+$HC_ROI['target']=[0,0,0,0,0,0,0,1.00];
+$HC_ROI['realisasi']=[0,0,0,0,0,0,0,0.14];
+$HC_ROI['satuan']='';
+
+// $ENGAGEMENT_RATING=96.75;
 // $ENGAGEMENT_RATING=96.43;
 
-$TRAINING_EXPENSE_RATIO=[0,0,2.26,5.44,10.10,0.91,53.31,3.47];
-$OVERTIME_PERCENTAGE=[0,28,36,38,23,35,43,43];
-$HR_TO_EMPLOYEE=[0,0.24,0.24,0.24,0.23,0.23,0.23,0.23];
-$RATIO_COST_PER_EMPLOYEE=[0,0.89,0.22,0.427,0.67,0.82,0.95,1.06 ];
-$HC_ROI=[0,  37.653,79.744,139.541,189.707,235.430,284.963,340.739  ];
+// $TRAINING_EXPENSE_RATIO=[0,0,2.26,5.44,10.10,0.91,53.31,3.47];
+// $OVERTIME_PERCENTAGE=[0,28,36,38,23,35,43,43];
+// $HR_TO_EMPLOYEE=[0,0.24,0.24,0.24,0.23,0.23,0.23,0.23];
+// $RATIO_COST_PER_EMPLOYEE=[0,0.89,0.22,0.427,0.67,0.82,0.95,1.06 ];
+// $HC_ROI=[0,  37.653,79.744,139.541,189.707,235.430,284.963,340.739  ];
 
-$TOTAL_MANDATORY_MKP=[0,1305,1301,1320,1339,1328,1337,1353,0];
-$TOTAL_MANDATORY_USER=[0,1639,1643,1658,1694,1746,1770,1763,0];
-$TOTAL_KARYAWAN=[0,4503,4532,4552,4684,4730,4778,4797,4856];
+$TOTAL_MANDATORY_MKP=[0,1305,1301,1320,1339,1328,1337,1353,1558];
+$TOTAL_MANDATORY_USER=[0,1639,1643,1658,1694,1746,1770,1763,1610];
+$TOTAL_KARYAWAN=[0,4503,4532,4552,4684,4730,4778,4797,4856, 4856];
 
-$TURN_OVER_RATIO=[0,0.23,0.80,0.90,0.15,0.38,0.42,0.38,0.27,0.00,0.00,0.00,0.00,0.00];
+// $TURN_OVER_RATIO=[0,0.23,0.80,0.90,0.15,0.38,0.42,0.38,0.27,0.00,0.00,0.00,0.00,0.00];
 
 $SUMATERA=[0,653,682,682,739,736,752,766,797];
 $JAWA=[0,1925,1907,1894,1922,1932,1927,1931,1934];
@@ -489,9 +521,9 @@ jQuery(document).ready(function(){
     			<div class="row">
 	    			<div class="col-md-2" style="max-width:20%; flex: 0 0 20%;">
 			    		<div class="item merah">
-			    			<div class="title">Time to Hire</div>
-			    			<div class="nilai"><?=$TIME_TO_HIRE['realisasi']?> <?=$TIME_TO_HIRE['satuan']?></div>
-							<div class="keterangan">Target <?=$TIME_TO_HIRE['target']?> <?=$TIME_TO_HIRE['satuan']?></div>
+			    			<div class="title">time to hire</div>
+			    			<div class="nilai"><?=$TIME_TO_HIRE['realisasi'][$reqBulan-1]?> <?=$TIME_TO_HIRE['satuan']?></div>
+							<div class="keterangan">Target: <?=$TIME_TO_HIRE['target'][$reqBulan-1]?> <?=$TIME_TO_HIRE['satuan']?></div>
 							<div class="tanda">
 								<i class="fa fa-caret-up" aria-hidden="true"></i>
 							</div>
@@ -510,7 +542,7 @@ jQuery(document).ready(function(){
 			    		<div class="item kuning">
 			    			<div class="title">Bipeg Rasio</div>
 			    			<div class="nilai"><?=$BIPEG_RASIO['realisasi'][$reqBulan-1]?> <?=$BIPEG_RASIO['satuan']?></div>
-							<div class="keterangan">Target <?=$BIPEG_RASIO['realisasi'][$reqBulan-1]?> <?=$BIPEG_RASIO['satuan']?></div>
+							<div class="keterangan">Target: <?=$BIPEG_RASIO['target'][$reqBulan-1]?> <?=$BIPEG_RASIO['satuan']?></div>
 							<div class="tanda">
 								<i class="fa fa-caret-up" aria-hidden="true"></i>
 							</div>
@@ -519,8 +551,8 @@ jQuery(document).ready(function(){
 			    	<div class="col-md-2" style="max-width:20%; flex: 0 0 20%;">
 			    		<div class="item hijau">
 			    			<div class="title">Engagement Rating</div>
-			    			<div class="nilai"><?=$ENGAGEMENT_RATING?>%</div>
-							<!-- <div class="keterangan">PERSEN</div> -->
+			    			<div class="nilai"><?=$ENGAGEMENT_RATING['realisasi'][$reqBulan-1]?> <?=$ENGAGEMENT_RATING['satuan']?></div>
+							<div class="keterangan">Target:<?=$ENGAGEMENT_RATING['target'][$reqBulan-1]?> <?=$ENGAGEMENT_RATING['satuan']?></div>
 							<div class="tanda">
 								<i class="fa fa-caret-up" aria-hidden="true"></i>
 							</div>
@@ -529,8 +561,8 @@ jQuery(document).ready(function(){
 			    	<div class="col-md-2" style="max-width:20%; flex: 0 0 20%;">
 			    		<div class="item abu-abu">
 			    			<div class="title">Training effectivness</div>
-			    			<div class="nilai">22,90%</div>
-							<!-- <div class="keterangan">PERSEN</div> -->
+			    			<div class="nilai"><?=$TRAINING_EFFECTIVNESS['realisasi'][$reqBulan-1]?> <?=$TRAINING_EFFECTIVNESS['satuan']?></div>
+							<div class="keterangan">Target:<?=$TRAINING_EFFECTIVNESS['target'][$reqBulan-1]?> <?=$TRAINING_EFFECTIVNESS['satuan']?></div>
 							<div class="tanda">
 								<i class="fa fa-caret-up" aria-hidden="true"></i>
 							</div>
@@ -539,8 +571,8 @@ jQuery(document).ready(function(){
 			    	<div class="col-md-2" style="max-width:20%; flex: 0 0 20%;">
 			    		<div class="item abu-abu">
 			    			<div class="title">Training Expense ratio</div>
-			    			<div class="nilai"><?=$TRAINING_EXPENSE_RATIO[$reqBulan]?> %</div>
-							<!-- <div class="keterangan">PERSEN</div> -->
+			    			<div class="nilai"><?=$TRAINING_EXPENSE_RATIO['realisasi'][$reqBulan-1]?> <?=$TRAINING_EXPENSE_RATIO['satuan']?></div>
+							<div class="keterangan">Target:<?=$TRAINING_EXPENSE_RATIO['target'][$reqBulan-1]?> <?=$TRAINING_EXPENSE_RATIO['satuan']?></div>
 							<div class="tanda">
 								<i class="fa fa-caret-up" aria-hidden="true"></i>
 							</div>
@@ -549,8 +581,8 @@ jQuery(document).ready(function(){
 			    	<div class="col-md-2" style="max-width:20%; flex: 0 0 20%;">
 			    		<div class="item hitam">
 			    			<div class="title">Overtime expenses ratio</div>
-			    			<div class="nilai"><?=$OVERTIME_PERCENTAGE[$reqBulan]?>%</div>
-							<!-- <div class="keterangan">PERSEN</div> -->
+			    			<div class="nilai"><?=$OVERTIME_PERCENTAGE['realisasi'][$reqBulan-1]?> <?=$OVERTIME_PERCENTAGE['satuan']?></div>
+							<div class="keterangan">Target:<?=$OVERTIME_PERCENTAGE['target'][$reqBulan-1]?> <?=$OVERTIME_PERCENTAGE['satuan']?></div>
 							<div class="tanda">
 								<i class="fa fa-caret-up" aria-hidden="true"></i>
 							</div>
@@ -559,8 +591,8 @@ jQuery(document).ready(function(){
 			    	<div class="col-md-2" style="max-width:20%; flex: 0 0 20%;">
 			    		<div class="item hitam">
 			    			<div class="title">Turnover ratio</div>
-			    			<div class="nilai"><?=$TURN_OVER_RATIO[$reqBulan]?>%</div>
-							<!-- <div class="keterangan">PERSEN</div> -->
+			    			<div class="nilai"><?=$TURN_OVER_RATIO['realisasi'][$reqBulan-1]?> <?=$TURN_OVER_RATIO['satuan']?></div>
+							<div class="keterangan">Target:<?=$TURN_OVER_RATIO['target'][$reqBulan-1]?> <?=$TURN_OVER_RATIO['satuan']?></div>
 							<div class="tanda">
 								<i class="fa fa-caret-up" aria-hidden="true"></i>
 							</div>
@@ -578,8 +610,8 @@ jQuery(document).ready(function(){
 			    	<div class="col-md-2" style="max-width:20%; flex: 0 0 20%;">
 			    		<div class="item pink">
 			    			<div class="title">HR to Employee ratio</div>
-			    			<div class="nilai"><?=$HR_TO_EMPLOYEE[$reqBulan]?> %</div>
-							<!-- <div class="keterangan">PERSEN</div> -->
+			    			<div class="nilai"><?=$HR_TO_EMPLOYEE['realisasi'][$reqBulan-1]?> <?=$HR_TO_EMPLOYEE['satuan']?></div>
+							<div class="keterangan">Target: <?=$HR_TO_EMPLOYEE['target'][$reqBulan-1]?> <?=$HR_TO_EMPLOYEE['satuan']?></div>
 							<div class="tanda">
 								<i class="fa fa-caret-up" aria-hidden="true"></i>
 							</div>
@@ -588,8 +620,8 @@ jQuery(document).ready(function(){
 			    	<div class="col-md-2" style="max-width:20%; flex: 0 0 20%;">
 			    		<div class="item pink">
 			    			<div class="title">Revenue/Cost to employee</div>
-			    			<div class="nilai">Rp. <?=$RATIO_COST_PER_EMPLOYEE[$reqBulan]?> Juta</div>
-							<!-- <div class="keterangan">JUTA</div> -->
+			    			<div class="nilai">Rp. <?=$RATIO_COST_PER_EMPLOYEE['realisasi'][$reqBulan-1]?> <?=$RATIO_COST_PER_EMPLOYEE['satuan']?></div>
+							<div class="keterangan">Target: Rp. <?=$RATIO_COST_PER_EMPLOYEE['target'][$reqBulan-1]?> <?=$RATIO_COST_PER_EMPLOYEE['satuan']?></div>
 							<div class="tanda">
 								<i class="fa fa-caret-up" aria-hidden="true"></i>
 							</div>
@@ -598,8 +630,8 @@ jQuery(document).ready(function(){
 			    	<div class="col-md-2" style="max-width:20%; flex: 0 0 20%;">
 			    		<div class="item pink">
 			    			<div class="title">HC ROI</div>
-			    			<div class="nilai"><?=$HC_ROI[$reqBulan]?></div>
-							<!-- <div class="keterangan">SATUAN</div> -->
+			    			<div class="nilai"><?=$HC_ROI['realisasi'][$reqBulan-1]?> <?=$HC_ROI['satuan']?></div>
+							<div class="keterangan">Target: <?=$HC_ROI['target'][$reqBulan-1]?> <?=$HC_ROI['satuan']?></div>
 							<div class="tanda">
 								<i class="fa fa-caret-up" aria-hidden="true"></i>
 							</div>

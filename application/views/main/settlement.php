@@ -227,13 +227,13 @@ $piutang_usaha[$arrprk[3]["key"]]= 4457;
 <h3 class="judul-halaman">Dashboard Settlement</h3>
 <!-- Content Row -->
 <div class="row row-konten area-settlement">
-  <div class="col-md-2">
+  <div class="col-md-2 equal-height-column">
     <div class="card item-data-angka">
       <div class="card-body">
         <div class="data">
           Collection Period
           <div class="nilai-total">Realisasi: <?=$collection_period['realisasi']?></div>
-          <div class="keterangan">Target: <?=$collection_period['target']?></div>
+          <div class="target">Target: <?=$collection_period['target']?></div>
         </div>
         <div class="ikon">
           <span><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
@@ -245,40 +245,45 @@ $piutang_usaha[$arrprk[3]["key"]]= 4457;
       <div class="card-body">
         Pendapatan
         <div class="nilai-total">Realisasi: Rp. <?=number_format($pendapatan['realisasi'],0,',','.')?> M</div>
-        <div class="nilai-total">Target: Rp. <?=number_format($pendapatan['target'],0,',','.')?> M</div>
+        <div class="target">Target: Rp. <?=number_format($pendapatan['target'],0,',','.')?> M</div>
 
-        <div class="card item-data-angka">
-          <div class="card-body">
-            <div class="ikon">
-              <img src="images/icon-pendapatan-usaha.png">
+        <section class="vertical slider">
+          <div>
+            <div class="card item-data-angka">
+              <div class="card-body">
+                <div class="ikon">
+                  <img src="images/icon-pendapatan-usaha.png">
+                </div>
+                <div class="data">
+                  <div class="title">Piutang Usaha</div>
+                  <div class="nilai"><span class="title">Realisasi: </span>Rp. <?=number_format($piutang_usaha['realisasi'],0,',','.')?> M</div>
+                  <div class="nilai"><span class="title">Target: </span>Rp. <?=number_format($piutang_usaha['target'],0,',','.')?> M</div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
             </div>
-            <div class="data">
-              <div class="title">Piutang Usaha</div>
-              <div class="nilai">Realisasi: Rp. <?=number_format($piutang_usaha['realisasi'],0,',','.')?> M</div>
-              <div class="nilai">Target: Rp. <?=number_format($piutang_usaha['target'],0,',','.')?> M</div>
-            </div>
-            <div class="clearfix"></div>
           </div>
-        </div>
-
-        <div class="card item-data-angka">
-          <div class="card-body">
-            <div class="ikon">
-              <img src="images/icon-tagihan-bruto.png">
+          <div>
+            <div class="card item-data-angka">
+              <div class="card-body">
+                <div class="ikon">
+                  <img src="images/icon-tagihan-bruto.png">
+                </div>
+                <div class="data">
+                  <div class="title">Tagihan Bruto</div>
+                  <div class="nilai"><span class="title">Realisasi: </span>Rp. <?=number_format($tagihan_bruto['realisasi'],0,',','.')?> M</div>
+                  <div class="nilai"><span class="title">Target: </span>Rp. <?=number_format($tagihan_bruto['target'],0,',','.')?> M</div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
             </div>
-            <div class="data">
-              <div class="title">Tagihan Bruto</div>
-              <div class="nilai">Realisasi: Rp. <?=number_format($tagihan_bruto['realisasi'],0,',','.')?> M</div>
-              <div class="nilai">Target: Rp. <?=number_format($tagihan_bruto['target'],0,',','.')?> M</div>
-            </div>
-            <div class="clearfix"></div>
           </div>
-        </div>
+        </section>
 
       </div>
     </div>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 equal-height-column">
     <div class="card area-tagihan-piutang">
       <div class="card-body">
         <div id="grafik-tagihan-piutang" class="grafik"></div>
@@ -288,9 +293,10 @@ $piutang_usaha[$arrprk[3]["key"]]= 4457;
   <div class="col-md-8">
     <div class="area-data-angka-settlement">
       <div class="card-body">
-        Piutang Usaha per Segmen
         <div class="row">
-          
+          <div class="col-md-12">
+            <div class="judul">Piutang Usaha per Segmen</div>
+          </div>
           <div class="col-md-6">
             <div class="card item pln">
               <div class="card-body">
@@ -395,15 +401,15 @@ $piutang_usaha[$arrprk[3]["key"]]= 4457;
             <div class="tab-content">
                 
                 <div class="tab-pane fade in active show" id="tab1">
-                  <div id="grafik-monitoring-pekerjaan" style="height: calc(35vh - 15px);"></div>
+                  <div id="grafik-monitoring-pekerjaan" style="height: calc(35vh - 25px);"></div>
                 </div>
 
                 <div class="tab-pane fade" id="tab2">
-                  <div id="grafik-monitoring-pekerjaan-non-rutin" style="height: calc(35vh - 15px);"></div>
+                  <div id="grafik-monitoring-pekerjaan-non-rutin" style="height: calc(35vh - 25px);"></div>
                 </div>
 
                 <div class="tab-pane fade" id="tab3">
-                  <div id="grafik-monitoring-pekerjaan-all" style="height: calc(35vh - 15px);"></div>
+                  <div id="grafik-monitoring-pekerjaan-all" style="height: calc(35vh - 25px);"></div>
                 </div>
             </div><!-- tab content -->
           </div>
@@ -412,7 +418,7 @@ $piutang_usaha[$arrprk[3]["key"]]= 4457;
       <div class="col-md-8">
         <div class="card area-top-10">
           <div class="card-header">
-            <img src="images/img-top-10.png" height="39">
+            <img src="images/img-top-10.png" height="30">
             <span class="nama">Outstanding tagihan bruto dan piutang usaha</span>
             <div class="area-filter">
               R/Pro :   
@@ -565,11 +571,12 @@ $piutang_usaha[$arrprk[3]["key"]]= 4457;
     $(".vertical").slick({
       dots: false,
       vertical: true,
-      slidesToShow: 6,
+      slidesToShow: 1,
       slidesToScroll: 1,
       // adaptiveHeight: true,
       autoplay: true,
       autoplaySpeed: 2000,
+      arrows: false
     });
   });
 </script>
