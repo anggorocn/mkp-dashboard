@@ -1,0 +1,46 @@
+    input[type="text"][disabled].textbox {
+       background-color: #FCFDFE;
+       cursor: default;
+       border: none;
+       box-shadow: 0px 0px #888888;
+       color: #000;
+       margin-top: -5px;
+       margin-left: -15px;
+    }
+
+    textarea[type="text"][disabled].textbox{
+       background-color: #FCFDFE;
+       cursor: default;
+       border: none;
+       box-shadow: 0px 0px #888888;
+       color: #000;
+       margin-top: -5px;
+       margin-left: -15px;
+       resize: none;
+    }
+
+    input[type="text"][disabled].combo-text  {
+       background-color: #FCFDFE;
+       cursor: default !important;
+       border: 0px;
+       margin-top: -5px;
+    }
+
+    .combo {
+       background-color: #FCFDFE !important;
+       cursor: default;
+       border: none !important;
+       margin-top: 2px;
+       margin-left: -15px;
+    }
+
+    .datebox {
+       background-color: #FCFDFE !important;
+       cursor: default;
+       border: none !important;
+       margin-top: 2px;
+       margin-left: -6px;
+    }
+    .combo-arrow-wadah{
+      display: none;
+    }

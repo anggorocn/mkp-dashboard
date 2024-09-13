@@ -1,0 +1,72 @@
+body{
+	font-family:Arial;
+	font-size:10px;
+}
+table {
+	font-family:Arial;
+    border-collapse: collapse;
+    width: 100%;
+	/**border:1px solid red;*/
+	
+	margin-bottom:10px;
+}
+th{
+	padding:4px 6px;
+	border: 1px solid black;
+}
+
+td{
+	padding:4px 6px;
+	border: 1px solid black;
+}
+span{
+	display:inline-block;
+	/**border:2px solid red;*/
+	
+}
+.nowrap{
+	white-space:nowrap;
+}
+
+/****/
+.kop-surat {
+	margin-bottom: 20px;
+}
+.kop-surat td {
+	border: none; font-size: 16px;
+	text-align: center;
+
+}
+
+
+/****/
+.area-ttd{
+	*background:#F96;
+	display:inline-block;
+	width:100%;
+	margin-bottom:18px;
+}
+.area-ttd .menyetujui{
+	*background:#F96;
+	float:left;
+	width:40%;
+	text-align:center;
+}
+.area-ttd .menyetujui1{
+	*background:#F96;
+	float:left;
+	width:30%;
+	text-align:center;
+}
+.area-ttd .menyetujui2{
+	*background:#F96;
+	float:left;
+	width:30%;
+	text-align:center;
+}
+.area-ttd .pemohon{
+	*background:#C6F;
+	float:right;
+	width:40%;
+	text-align:center;
+}
